@@ -1,0 +1,31 @@
+---
+title: "The dinosaur and the unicorn"
+output: 
+  html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Project Gene Analysis
+## Outline
+
+1. __Data Processing:__ First we [read the SOEP-I data into R](https://lisallreiber.github.io/GeneAnalysis/00_import_data.html), 
+and create the datasets needded for further analysis.
+2. __Data Description:__ Here we can look at some [descriptive plots](https://lisallreiber.github.io/GeneAnalysis/p1_0102_describe_plots_v36.html) and [frequency tables](https://lisallreiber.github.io/GeneAnalysis/p1_0202_describe_tables_v36.html) of the iGENE Sample.
+3. __Data Analysis:__ Future
+4. __Documentation:__ [Here](https://lisallreiber.github.io/GeneAnalysis/00_codebook.html) you can find an example codebook of the underlying data. (Created with the [codebook package](https://github.com/rubenarslan/codebook) by Ruben Arslan)
+
+# Authors & Acknowledgements {.tabset}
+ 
+## Authors 
+of the code: Lisa Reiber (to be updated)
+`plot(iris$sepal)`
+
+## Acknowledgements
+A big thank you to Ruben Arslan for development of reproducible visualization of research projects on the web (repro-web-stack) [click here for more Info](https://github.com/rubenarslan/repro_web_stack)
+
+## References 
+
+
+
+

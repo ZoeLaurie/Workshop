@@ -1,0 +1,29 @@
+---
+title: "stupid title"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(ggplot2)
+```
+
+
+```{r}
+data<- readRDS("/cloud/project/data/metaviz_long.rds")
+
+```
+## Scatterplot showing the year in which different participants filled in the survey
+I think....    
+    
+```{r}
+data %>% 
+ggplot(aes(syear, pid)) +
+      geom_point() + theme_minimal()
+
+```
+```{r}
+knitr::include_graphics(path = "https://i.pinimg.com/originals/a0/c0/26/a0c0264ce1712cf13b1664a0c30a9cb3.jpg")
+```
+
